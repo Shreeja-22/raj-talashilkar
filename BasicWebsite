@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<title>VESIT</title>
+<center>
+	<h1 style="font-size:60px;">VESIT AUDITORIUM</h1>
+</center>
+<center>
+	<h2>Book your Seats</h2>
+</center>
+<head>
+	<style>
+	.dropbtn{
+		background-colour:#d1e0e0;
+		colour:white;
+		padding:16px 20px;
+		font-size: 16px;
+		border: none;
+	}
+	.dropdown 
+	{
+ 	 position: relative;
+ 	 display: inline-block;}
+
+	.dropdown-content a{
+	position: absolute;
+	background-colour:#f1f1f1;
+	min-width:160px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;}
+
+	.dropdown-content a {
+  	color: black;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: block;
+	}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+</style>
+</head>
+<body>
+<center>
+	<img  src="download3.jpg" width="800" height="400" >
+</center>
+<form action=" ">
+  <fieldset>
+      <legend>Personal Information</legend> 
+	<h2>select your option</h2>
+  		First name:<br>
+ 		<input type="text" name="firstname"><br>
+ 		Last name:<br>
+  		<input type="text" name="lastname"><br><br>
+	
+ </fieldset>
+
+<fieldset>
