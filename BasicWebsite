@@ -59,3 +59,25 @@
  </fieldset>
 
 <fieldset>
+	<legend>Details & Turpose</legend> 
+		<h2>select your option</h2>
+ 			 Time:<br>
+			 <input type="text" name="firstname"><br>
+  			 Purpose :<br>
+  <input type="text" name="lastname"><br><br>
+ 
+
+ select yor option:<br>
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Auditorium</a>
+    <a href="#">Smart Class</a>
+	</div>
+</div>
+ <input type="submit" value="Submit">
+ </fieldset>
+
+</form>
+</body>
+</html>
